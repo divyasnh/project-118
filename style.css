@@ -1,0 +1,56 @@
+
+body
+{
+    background-color: yellow;
+}
+
+h1
+{
+ 
+    color:rgb(28, 28, 194);
+    background-color: blanchedalmond;
+}
+
+#show_sketch
+{
+    float:right
+}
+
+
+canvas
+{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: Divyansh;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes Divyansh {
+
+    from {box-shadow: 1px 1px 38px rgb(26, 187, 26);}
+    to {box-shadow: 1px 1px 38px aqua;}
+
+}
+
+
+
+p
+  {
+    padding-top:10px;
+    font-size:25px;
+
+  }
+
+  #score
+{
+    float:left
+}
+
+
+#timer
+{
+    float:right
+}
